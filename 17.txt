@@ -1,0 +1,6 @@
+import heapq
+nums = [5, 7, 9, 1, 3]
+heapq.heapify(nums)
+print("Heap:", nums)
+heapq.heappush(nums, 0)
+print("After push:", nums)

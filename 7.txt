@@ -1,0 +1,17 @@
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop()
+
+S = Stack()
+S.push(10)
+S.push(20)
+S.push(30)
+print("Stack:", S.items)
+S.pop()
+print("After pop:", S.items)

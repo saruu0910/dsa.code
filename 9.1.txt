@@ -1,0 +1,8 @@
+def sequential_search(arr, key):
+    for i in range(len(arr)):
+        if arr[i] == key:
+            return f"Element {key} found at index {i}"
+    return "Element not found"
+
+nums = [5, 10, 15, 20]
+print(sequential_search(nums, 15))

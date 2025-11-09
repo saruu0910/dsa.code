@@ -1,0 +1,7 @@
+# List ADT using Python arrays
+lst = [10, 20, 30, 40, 50]
+print("Original List:", lst)
+
+# Delete 30
+lst.remove(30)
+print("After Deleting 30:", lst)

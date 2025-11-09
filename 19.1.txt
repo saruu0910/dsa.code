@@ -1,0 +1,1 @@
+print("Sorted:", bubble_sort([5, 3, 8, 6]))

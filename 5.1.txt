@@ -1,0 +1,2 @@
+Queue: [10, 20, 30]
+After dequeue: [20, 30]
